@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <label for="nome">Nome: </label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome."
+          required
+        />
+
+        <br />
+
+        <label for="email">Email: </label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="exemplo@aqui.com"
+          required
+        />
+
+        <br />
+
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade" placeholder="26" />
+
+        <br />
+
+        <label for="materia"
+          >Para qual matéria você está se candidatando para lecionar?</label
+        >
+        <select name="materia" id="materia">
+          <option value=" "></option>
+          <option value="matematica">Matemática</option>
+          <option value="portugues">Português</option>
+          <option value="biologia">Biologia</option>
+          <option value="ciencias">Ciências</option>
+          <option value="historia">História</option>
+          <option value="geografia">Geografia</option>
+          <option value="artes">Artes</option>
+        </select>
+        <select name="nivel" id="nivel">
+          <option value=" "></option>
+          <option value="superior">Superior completo</option>
+          <option value="mestrado">Cursando mestrado</option>
+          <option value="mestrado1">Mestrado completo</option>
+          <option value="doutorado">Cursando doutorado</option>
+          <option value="doutorado1">Doutorado completo</option>
+        </select>
+        <br />
+        <label for="descricao">Descrição</label>
+        <textarea
+          name="descricao"
+          id="descricao"
+          maxlength="200"
+          cols="30"
+          rows="10"
+          required
+          placeholder="Nos conte um pouco sobre você."
+        ></textarea>
+        <br />
+      </form>
+      <button type="submit">Enviar formulário</button>
+    </section>
+  </body>
+</html>
